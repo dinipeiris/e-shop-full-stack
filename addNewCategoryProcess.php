@@ -30,7 +30,7 @@ if(isset($_POST["email"]) && isset($_POST["name"])){
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'test@testmail.com';
-            $mail->Password = 'kmmredjolss*****';
+            $mail->Password = 'password';
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
             $mail->setFrom('test@testmail.com', 'Admin Verification');
